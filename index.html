@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Envelope</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 style="font-weight: bold">❤️LOVE❤️</h1> <br>
+    </div>
+    <button id="playAudioButton">Click Me !!</button>
+<audio id="myAudio" src="./Little Bit More.mp3"></audio>
+
+    <div class="container">
+      <div class="envelope-wrapper">
+        <div class="envelope">
+          <div class="letter">
+            <div class="text">
+              <p>
+                <strong>Hey! Girl,</strong> <br />In the tapestry of our shared moments, I've discovered a sentiment that refuses to be contained within the confines of silence. Your laughter resonates in the quiet corridors of my thoughts, and your presence paints my world with hues of warmth. It's with a heart brimming with honesty that I confess my feelings have taken root, blossoming into an undeniable affection. The prospect of us moving beyond the boundaries of friendship has become a compelling thought, and I find myself longing for the possibility of exploring this uncharted terrain together. Your response is a treasure I await, with hope and a touch of vulnerability. But Honestly, for me however you
+                are, whoever you are, I will Love you the same, the same for all
+                the quirks that made you the way you are. The Things how
+                beautifully you look at the things and the way you innocently
+                treat everyone. And whenever you think like this, I want you to
+                see yourself from my eyes then you will realize how special you
+                are !. I wanna make you so happy that you cant stop smiling and
+                stop doubting yourself. I am just proud of you. <em>"Tum toh mera
+                woh Chand ho, jo meri haar raat ko roshan karta hai."</em> I am proud
+                of the you, how beautifully you have endured and achieved
+                everything. Ik there might some of the things that might hurting
+                you from inside, there might be some regrets, there might be
+                some things you thinking guilty of, and Ik I can't fix
+                everything But all I can promise you to be there whenever you
+                need me. I just want to be there for you, to hold you when you
+                feel to cry. I want to be the shoulder for you to cry on. You
+                are my that favourite person whom I wish to see you everyday.
+                Ahhh...😶‍🌫️Ik we don't meet each day, and even if you have many
+                people in your life, I would like to say that I am here for you
+                everytime you need me. <br />
+                <strong> I Love Youu Each day more and more...❤❤❤ </strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    <div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+<div class="balloon"></div>
+    <script>
+      const envelope = document.querySelector(".envelope-wrapper");
+      envelope.addEventListener("click", () => {
+        envelope.classList.toggle("flap");
+      });
+      const playAudioButton = document.getElementById('playAudioButton');
+  const audioElement = document.getElementById('myAudio');
+
+  playAudioButton.addEventListener('click', () => {
+    audioElement.play();
+  });
+    </script>
+  
+  </body>
+</html>
